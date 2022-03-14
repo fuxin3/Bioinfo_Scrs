@@ -3,6 +3,9 @@ library(clusterProfiler)
 #species human
 library(org.Hs.eg.db)
 
+#input
+#genelist
+
 KEGG_enrich <- function(genelist){
 
     eg <- bitr(genelist, 
