@@ -3,6 +3,9 @@ library(clusterProfiler)
 #species homan
 library(org.Hs.eg.db)
 
+#input
+#genelist
+
 GO_enrich <- function(genelist){
 
     eg <- bitr(genelist, 
